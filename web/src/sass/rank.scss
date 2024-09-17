@@ -1,0 +1,31 @@
+.container-rank {
+
+    background: $background-color;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    .container-items {
+        margin-top: 100px;
+    }
+
+
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font: 2rem "Fira Sans", sans-serif;
+        position: fixed;
+        width: 100vw;
+        z-index: 9;
+    }
+
+
+    .rank-items {
+        text-align: center;
+        height: 20px;
+    }
+
+}
