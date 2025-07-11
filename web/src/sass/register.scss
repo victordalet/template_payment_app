@@ -1,0 +1,38 @@
+.container-page {
+    width: 100vw;
+    height: 100vh;
+    background: $background-color;
+    overflow: hidden;
+
+
+    .wrapper-log-in , .wrapper-register {
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wrapper-log-in {
+        border-bottom: 2px solid black;
+    }
+
+
+    .button-rank {
+        top: 20px;
+        left: 20px;
+        position: absolute;
+
+        @media screen and (max-width: 900px) {
+            & {
+                top: 0;
+                left: 0;
+            }
+        }
+
+    }
+
+
+
+}
