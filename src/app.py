@@ -150,4 +150,4 @@ def payment_post():
 
 
 if __name__ == "__main__":
-    app.run(port=4242)
+    app.run(port=80)
