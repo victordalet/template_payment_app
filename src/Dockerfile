@@ -8,4 +8,4 @@ COPY .. /app
 
 WORKDIR /app
 
-CMD ["python", "app.py"]
+CMD python app.py ${STRIPE_API_KEY}
