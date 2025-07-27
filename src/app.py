@@ -110,7 +110,7 @@ def payment():
             }
         ],
         mode="payment",
-        success_url="https://yourdomain.com/success?email="
+        success_url="https://aliceploux.c2smr.frsuccess?email="
         + email
         + "&phone="
         + phone
